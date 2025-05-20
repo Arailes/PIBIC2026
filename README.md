@@ -44,3 +44,18 @@ Você pode hospedar gratuitamente como site estático:
 ---
 
 **Desenvolvido para fins acadêmicos e de divulgação científica.**
+
+# Inicialize um repositório git (se ainda não tiver)
+git init
+
+# Adicione todos os arquivos
+git add .
+
+# Faça o commit
+git commit -m "Primeiro commit do site estático"
+
+# Crie um repositório no GitHub e conecte o remoto
+git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+
+# Envie os arquivos para o GitHub
+git push -u origin master
